@@ -43,6 +43,18 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>Releases</name>
+			<url>http://nexus.34.98.108.14.xip.io/repository/maven-releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Snapshot</name>
+			<url>http://nexus.34.98.108.14.xip.io/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<repositories>
 		<repository>
 			<id>spring-milestones</id>
