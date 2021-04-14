@@ -61,7 +61,7 @@
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
 			<!--<url>http://nexus.34.98.108.14.xip.io/repository/spring-milestones/</url>-->
-			<!--			<url>https://repo.spring.io/milestone</url>-->
+			<url>https://repo.spring.io/milestone</url>
 		</repository>
 		<repository>
 			<id>spring-snapshots</id>
