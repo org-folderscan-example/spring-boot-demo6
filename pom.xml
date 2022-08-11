@@ -48,26 +48,26 @@
 		<repository>
 			<id>nexus</id>
 			<name>Releases</name>
-			<url>https://nexus.acaternberg.pscbdemos.com/repository/maven-releases</url>
+			<url>https://nexus.acaternberg.flow-training.beescloud.com/repository/maven-releases</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>Snapshot</name>
-			<url>https://nexus.acaternberg.pscbdemos.com/repository/maven-snapshots/</url>
+			<url>https://nexus.acaternberg.flow-training.beescloud.com/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<repositories>
 		<repository>
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
-			<!--<url>http://nexus.acaternberg.pscbdemos.com/repository/spring-milestones/</url>
+			<!--<url>https://nexus.acaternberg.flow-training.beescloud.com/repository/spring-milestones/</url>
 -->
 			<url>https://repo.spring.io/milestone</url>
 		</repository>
 		<repository>
 			<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
-	<!--		<url>http://nexus.acaternberg.pscbdemos.com/repository/spring-milestones/</url>-->
+	<!--		<url>https://nexus.acaternberg.flow-training.beescloud.com/repository/spring-milestones/</url>-->
 
 			<url>https://repo.spring.io/snapshot</url>
 			<snapshots>
@@ -77,7 +77,7 @@
 		<repository>
 			<id>spring-releases</id>
 			<name>Spring Releases</name>
-			<!--		<url>http://nexus.acaternberg.pscbdemos.com/repository/spring-release/</url>-->
+			<!--		<url>https://nexus.acaternberg.flow-training.beescloud.com//repository/spring-release/</url>-->
 
 			<url>https://repo.spring.io/release</url>
 			<snapshots>
